@@ -49,29 +49,30 @@ Generated Answer
 Clone the repository
 
 ```bash
-## Installation
-
-Clone the repository
 
 git clone https://github.com/awd11/alfred-ai.git
 
 cd alfred-ai
+
 ```
 
 Create environment
+```bash
 
 python -m venv venv
 
 venv\Scripts\activate
-
+```
 Install dependencies
 
+```bash
 pip install -r requirements.txt
-
+```
 Install model
-
+```bash
 ollama pull llama3
-
+```
 Run application
-
+```bash
 streamlit run app.py
+```
