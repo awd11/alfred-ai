@@ -56,6 +56,7 @@ Clone the repository
 git clone https://github.com/awd11/alfred-ai.git
 
 cd alfred-ai
+```
 
 Create environment
 
